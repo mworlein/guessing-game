@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Favorite Food Guessing Game</title>
+		<style>
+			body 	{
+				background-color: red;
+				}
+			h1   	{
+				color: white; 
+				font-family: Arial;
+				font-size: 50px;
+				}
+			h2   	{
+				color: black; 
+				font-family: Arial;
+				font-size: 30px;
+				}
+		</style>
+	</head>
+
+	<body>
+		<center><h1>Guess My Favorite Food</h1>
+		<img src="https://s3.amazonaws.com/ODNUploads/5431308c0d073Cheese_Pizza_Pepperoni.jpg"/><br><br>
+
+		<script>
+		var favoriteFood = ("pizza");
+		var guess = prompt("Guess my favorite food!")
+			if(guess === favoriteFood) {
+   				alert("Congratulations!! You guessed it. You're so smart!");
+   			}
+  			else {
+   				alert("Bummer dude! You failed to guess my favorite food.")
+ 			}
+		</script>
+
+		<h2>I love pizza!</h2>
+	</body>
+</html>
